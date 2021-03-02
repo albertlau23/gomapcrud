@@ -3,16 +3,16 @@
 * Version : 1.0.0
 * */
 
-import 'package:gomapcrud/AppThemeNotifier.dart';
-import 'package:gomapcrud/screens/music/MusicFullApp.dart';
-import 'package:gomapcrud/screens/music/MusicPasswordScreen.dart';
-import 'package:gomapcrud/screens/music/MusicRegisterScreen.dart';
-import 'package:gomapcrud/utils/SizeConfig.dart';
+import 'package:UIKit/AppThemeNotifier.dart';
+import 'package:UIKit/screens/music/MusicFullApp.dart';
+import 'package:UIKit/screens/music/MusicPasswordScreen.dart';
+import 'package:UIKit/screens/music/MusicRegisterScreen.dart';
+import 'package:UIKit/utils/SizeConfig.dart';
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:provider/provider.dart';
 
-import '../AppTheme.dart';
+import '../../AppTheme.dart';
 
 class MusicLoginScreen extends StatefulWidget {
   @override
